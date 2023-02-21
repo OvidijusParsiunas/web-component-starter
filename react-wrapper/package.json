@@ -1,0 +1,47 @@
+{
+  "name": "web-component-starter-react-wrapper",
+  "version": "1.0.6",
+  "description": "React wrapper for a starter web component project",
+  "main": "./dist/web-component-starter-react-wrapper.js",
+  "module": "./dist/web-component-starter-react-wrapper.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OvidijusParsiunas/web-component-starter.git"
+  },
+  "author": "OvidijusParsiunas",
+  "license": "ISO",
+  "bugs": {
+    "url": "https://github.com/OvidijusParsiunas/web-component-starter/issues"
+  },
+  "homepage": "https://github.com/OvidijusParsiunas/web-component-starter#readme",
+  "keywords": [
+    "starter",
+    "boilerplate",
+    "scaffold",
+    "web-component",
+    "custom-element",
+    "component",
+    "element",
+    "react",
+    "wrapper",
+    "react-wrapper"
+  ],
+  "dependencies": {
+    "@lit-labs/react": "^1.1.1",
+    "react": "^18.2.0",
+    "web-component-starter": "^1.0.0",
+    "web-component-starter-fast": "^1.0.5",
+    "web-component-starter-lit": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "typescript": "^4.9.5"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
