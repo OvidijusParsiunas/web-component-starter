@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "src/styles.ts",
+      "declarations": [
+        {
+          "kind": "variable",
+          "name": "styles",
+          "default": "css`\n  :host {\n    /* this property prevents outside styles from affecting this component */\n    all: initial;\n  }\n\n  .text {\n    font-size: 20px;\n    font-family: sans-serif;\n  }\n`"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "styles",
+          "declaration": {
+            "name": "styles",
+            "module": "src/styles.ts"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/web-component-starter-lit.ts",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "WebComponentStarterLit",
+          "members": [
+            {
+              "kind": "field",
+              "name": "greeting",
+              "type": {
+                "text": "string"
+              },
+              "default": "'Hi'",
+              "attribute": "greeting"
+            }
+          ],
+          "attributes": [
+            {
+              "name": "greeting",
+              "type": {
+                "text": "string"
+              },
+              "default": "'Hi'",
+              "fieldName": "greeting"
+            }
+          ],
+          "superclass": {
+            "name": "LitElement",
+            "package": "lit"
+          },
+          "tagName": "web-component-starter-lit",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "WebComponentStarterLit",
+          "declaration": {
+            "name": "WebComponentStarterLit",
+            "module": "src/web-component-starter-lit.ts"
+          }
+        },
+        {
+          "kind": "custom-element-definition",
+          "name": "web-component-starter-lit",
+          "declaration": {
+            "name": "WebComponentStarterLit",
+            "module": "src/web-component-starter-lit.ts"
+          }
+        }
+      ]
+    }
+  ]
+}

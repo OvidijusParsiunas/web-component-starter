@@ -1,6 +1,6 @@
-# Web Component Starter for Fast Element
+# Web Component Starter for Lit Element
 
-Boilerplate project for building a web component using [Microsoft's Fast](https://www.fast.design/) framework. It is fully equipped with TypeScript and is ready to be published to npm.
+Boilerplate project for building a web component using the [Lit Element](https://lit.dev/) framework. It is fully equipped with TypeScript and is ready to be published to npm.
 
 This is a framework agnostic component, however when using it in React - we recommended that you wrap it using a dedicated library to overcome some web component incompatibilities (read [docs](https://reactjs.org/docs/web-components.html) and [tests](https://custom-elements-everywhere.com/)). See example.
 
@@ -35,7 +35,7 @@ Builds a [custom elements manifest](https://github.com/webcomponents/custom-elem
 
 ## :books: More information
 
-You can find out more information on how to build a Fast element [here](https://www.fast.design/docs/fast-element/getting-started/).
+You can find out more information on how to build a Lit element [here](https://lit.dev/docs/getting-started/).
 
 ## :yellow_heart: Contributions
 

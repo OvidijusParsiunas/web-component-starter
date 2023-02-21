@@ -1,6 +1,7 @@
 import transformTaggedTemplate from 'rollup-plugin-transform-tagged-template';
 import resolve from '@rollup/plugin-node-resolve';
 import {terser} from 'rollup-plugin-terser';
+import summary from 'rollup-plugin-summary';
 
 export default {
   input: 'dist/web-component-starter-fast.js',
@@ -35,6 +36,7 @@ export default {
       }
     }),
     resolve(),
-    terser()
+    terser(),
+    summary(),
   ]
 };

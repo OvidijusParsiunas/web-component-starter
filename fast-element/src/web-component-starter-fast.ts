@@ -15,3 +15,10 @@ export class WebComponentStarterFast extends FASTElement {
     console.log('greeting has changed!')
   }
 }
+
+// The following type makes it easier for other projects to use this component with TypeScript
+declare global {
+  interface HTMLElementTagNameMap {
+    'web-component-starter-fast': WebComponentStarterFast;
+  }
+}
