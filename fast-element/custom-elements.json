@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "src/styles.ts",
+      "declarations": [
+        {
+          "kind": "variable",
+          "name": "styles",
+          "default": "css`\n  :host {\n    /* this property prevents outside styles from affecting this component */\n    all: initial;\n  }\n\n  .text {\n    font-size: 20px;\n    font-family: sans-serif;\n  }\n`"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "styles",
+          "declaration": {
+            "name": "styles",
+            "module": "src/styles.ts"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/web-component-starter-fast.ts",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "WebComponentStarterFast",
+          "members": [
+            {
+              "kind": "field",
+              "name": "greeting",
+              "type": {
+                "text": "string"
+              },
+              "default": "'Hi'"
+            },
+            {
+              "kind": "method",
+              "name": "greetingChanged"
+            }
+          ],
+          "superclass": {
+            "name": "FASTElement",
+            "package": "@microsoft/fast-element"
+          },
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "WebComponentStarterFast",
+          "declaration": {
+            "name": "WebComponentStarterFast",
+            "module": "src/web-component-starter-fast.ts"
+          }
+        }
+      ]
+    }
+  ]
+}
