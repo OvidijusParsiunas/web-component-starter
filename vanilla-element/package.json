@@ -1,9 +1,9 @@
 {
-  "name": "web-component-starter-lit",
-  "version": "1.0.2",
-  "description": "Starter web component project for lit element",
-  "main": "./dist/web-component-starter-lit.js",
-  "module": "./dist/web-component-starter-lit.js",
+  "name": "web-component-starter",
+  "version": "1.0.0",
+  "description": "Starter web component project",
+  "main": "./dist/web-component-starter.js",
+  "module": "./dist/web-component-starter.js",
   "type": "module",
   "scripts": {
     "build": "tsc && npm run analyze",
@@ -11,7 +11,7 @@
     "serve": "wds --watch",
     "build:bundle": "npm run clean && npm run build && rollup --config",
     "clean": "rimraf dist test",
-    "analyze": "cem analyze --litelement --globs \"src/**/*.ts\""
+    "analyze": "cem analyze --globs \"src/**/*.ts\""
   },
   "repository": {
     "type": "git",
@@ -30,13 +30,8 @@
     "web-component",
     "custom-element",
     "component",
-    "element",
-    "lit",
-    "lit-element"
+    "element"
   ],
-  "dependencies": {
-    "lit": "^2.6.1"
-  },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-replace": "^5.0.2",
@@ -47,9 +42,9 @@
     "rollup-plugin-transform-tagged-template": "^0.0.3",
     "tslib": "^2.5.0",
     "typescript": "^4.9.5",
+    "@custom-elements-manifest/analyzer": "^0.6.8",
     "rimraf": "^4.1.2",
-    "rollup-plugin-summary": "^1.4.3",
-    "@custom-elements-manifest/analyzer": "^0.6.8"
+    "rollup-plugin-summary": "^1.4.3"
   },
   "customElements": "custom-elements.json",
   "files": [
