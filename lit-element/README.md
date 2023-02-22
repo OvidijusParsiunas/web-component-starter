@@ -1,6 +1,6 @@
 # Web Component Starter for Lit Element
 
-Boilerplate project for building a web component using the [Lit Element](https://lit.dev/) framework. It is fully equipped with TypeScript and is ready to be published to npm.
+Boilerplate project for building a web component using the [Lit Element](https://lit.dev/) framework. It is fully equipped with TypeScript and is ready to be published to NPM.
 
 This is a framework agnostic component, however when using it in React - we recommended that you wrap it using a dedicated library to overcome some web component incompatibilities (read [docs](https://reactjs.org/docs/web-components.html) and [tests](https://custom-elements-everywhere.com/)). See [example](../react-wrapper/README.md).
 
@@ -27,7 +27,7 @@ Serves the component locally (from _index.html_).
 
 ```npm run build:bundle```
 
-Bundles the component into a single file (to _dist/web-component-starter-fast.bundle.js_). This is great for serving the component via a CDN, such as [UPKG](https://unpkg.com/) (example).
+Bundles the component into a single file (to _dist/web-component-starter-fast.bundle.js_). This is great for serving the component via a CDN, such as [UPKG](https://unpkg.com/) ([example](https://codesandbox.io/s/web-component-starter-cdn-3ouokv?file=/index.html)).
 
 ```npm run analyze```
 
